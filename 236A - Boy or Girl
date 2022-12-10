@@ -1,0 +1,15 @@
+#include <iostream>
+#include <set>
+using namespace std;
+int main() {
+string a;
+cin>>a;
+set <char> set_name(begin(a), end(a));
+int l = set_name.size();
+if(l%2==0){
+    cout<<"CHAT WITH HER!"<<endl;
+}else{
+    cout<<"IGNORE HIM!"<<endl;
+}
+ 
+}
