@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+string a;
+cin>>a;
+if(int(a[0]>=91)){
+    int b = int(a[0]) - 32;
+    char c = char(b);
+    a[0]=c;
+}
+cout<<a<<endl;
+
+}
